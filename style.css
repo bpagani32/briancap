@@ -1,0 +1,151 @@
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 9vh;
+    overflow-x: 0px;
+    overflow-y: -2px;
+    margin: auto;
+    top:0px;
+    left:0px;
+    right:0px;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:black;
+    color: #f2f2f2;
+  }
+  #GXS_Logo{
+    
+    border-color:silver;
+   
+    width: 75px;
+    height: 50px;
+    margin:auto;
+   
+  }
+  .Title{
+    background-color: grey;
+    width: 30vw;
+    height:30vh;
+    margin-left: 700px;
+    margin-bottom:100px;
+    border:1px;
+    
+    
+    
+  }
+  .h1title{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left:180px;
+    font-size:40px;
+  }
+  .h2title{
+    margin-top:100px;
+    font-size:30px;
+    justify-content: baseline
+  }
+  .static {
+    position:absolute;
+    background: white;
+    width: 50vw;
+    height:50vh;
+    width: 500px;
+    height:280px;
+   
+    
+    
+    object-fit: cover;
+
+  }
+  
+  .static:hover {
+    opacity:0;
+    width: 50vw;
+    height: 50vh;
+    cursor: pointer;
+    position: absolute;
+    width: 50vw;
+    height:50vh;
+    width: 500px;
+    height:280px;
+     
+
+  }
+
+
+  .div1{
+    background-color: grey;
+    margin: auto;
+    width: 26vw;
+    text-align: center;
+  }
+    
+    #flexin{
+        margin-top:100px;
+        width: 25vw;
+        display: inline-flex;
+        margin-left: 250px;
+      }
+   
+
+ 
+
+  .trade{
+    background-color: grey;
+    width: 25vw;
+    height: 25vh;
+
+    
+    
+  }
+  .free{
+    background-color: lavender;
+    width: 25vw;
+    height:25vh;
+    
+  }
+  #flexin{
+    flex-direction: row;
+  }
+  .hockey-sites{
+    margin-left:1200px;
+    background-color: grey;
+    font-size:20px;
+  }
+  .hockey-youtube{
+    margin-left:1200px;
+    background-color: grey;
+    font-size:20px;
+  }
+  footer{
+    background-color: black;
+    width: 100vw;
+    height: 30px;
+    bottom: 0px;
+    right:0px;
+    left:0px;
+  } 
+  
