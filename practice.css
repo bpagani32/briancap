@@ -38,9 +38,8 @@
     
     border-color:silver;
    
-    width: 370px;
-    height: 250px;
-    margin:auto;
+    width: 1vw;
+    height: 20vh;;
    
   }
 
@@ -88,21 +87,21 @@ h2{
 #artTitle{
     background-color: maroon;
     color:white;
-    border: 2px solid;
+ 
     margin-top: 10px;
-    margin-right:20px;
+    
 }
 #artTitle2{
     background-color: maroon;
     color:white;
-    border: 2px solid;
-    margin-right:20px;
+   
+  
 }
 #artTitle3{
     background-color: maroon;
     color:white;
-    border: 2px solid;
-    margin-right:20px;
+  
+    
     
     font-size:26px;
     height: 70px;;
@@ -168,3 +167,13 @@ footer{
       
  
    }
+#thirdOne{
+    background-color: green;
+}
+
+#fourthOne{
+    background-color: purple;
+}
+#lastOne{
+    background-color: yellow;
+}
