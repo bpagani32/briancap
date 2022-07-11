@@ -1,0 +1,170 @@
+*{
+    margin:0; padding:0; border:0;
+    box-sizing: border-box;
+}
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 90%;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:black;
+    color: #f2f2f2;
+  }
+  #GXS_Logo{
+    
+    border-color:silver;
+   
+    width: 260px;
+    height: 230px;
+    margin:auto;
+   
+  }
+  #GXS_Logo2{
+    
+    border-color:silver;
+   
+    width: 370px;
+    height: 250px;
+    margin:auto;
+   
+  }
+
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+.container{
+    
+    min-height: 100vh;
+    width: 100%; max-width: 1400px; margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-color: #5171A5;
+    color: white;
+    flex: 0 0 300px;
+    border: 4px solid black;
+    
+}
+main{
+    background-color: grey;
+    color:white;
+    flex: 1 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+h1{
+    background-color: darkblue;
+    width: vw;
+    text-align: center;
+}
+h3{
+    background-color: black;
+    max-width: 30vw;;
+}
+h2{
+    font-size:23px;
+    background-color: lightblue;
+    text-align:start;
+    color:navy;
+    
+}
+#artTitle{
+    background-color: maroon;
+    color:white;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-right:20px;
+}
+#artTitle2{
+    background-color: maroon;
+    color:white;
+    border: 2px solid;
+    margin-right:20px;
+}
+#artTitle3{
+    background-color: maroon;
+    color:white;
+    border: 2px solid;
+    margin-right:20px;
+    
+    font-size:26px;
+    height: 70px;;
+    text-align: baseline;
+}
+.mainblocks{
+    background-color: #EFF2F1;
+    border:4px solid black;
+    min-height: 250px; 
+    flex: 1 0 50%;
+    
+
+}
+footer{
+    background-color: grey;
+    border: 4px solid black;
+    min-height: 250px;
+    flex: 1 0 auto;
+
+}
+
+/*tablet styles */
+@media screen and (max-width: 1000px){
+    .container{
+        flex-direction: column;
+    }
+
+}
+/*phone styles */
+@media screen and (max-width: 700px){
+    .box5, .box6{
+        display: none;
+    }
+    
+}
+
+
+.static {
+    
+    position:absolute;
+     background: white;
+     width: 32vw;
+     height:32vh;
+     width: 500px;
+     height:280px;
+    
+     
+     
+     object-fit: cover;
+ 
+   }
+   
+   .static:hover {
+     opacity:0;
+     width: 50vw;
+     height: 50vh;
+     cursor: pointer;
+     position: absolute;
+     width: 50vw;
+     height:50vh;
+     width: 500px;
+     height:280px;
+      
+ 
+   }
