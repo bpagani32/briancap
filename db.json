@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "90-91 Jaromir Jagr",
+      "rating": 5,
+      "imageURL" : "https://beckett-www.s3.amazonaws.com/news/news-content/uploads/2019/02/Jagr1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "20-21 Alex Lafrenière",
+      "rating": 4,
+      "imageURL" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmuLdfPTCzIWddzTalyy-RupEZqPkOwBrhJQ&usqp=CAU"
+    },
+    {
+      "id": 3,
+      "title": "21-22 Connor McDavid",
+      "rating": 5,
+      "imageURL" : "https://cconnect.s3.amazonaws.com/wp-content/uploads/2021/03/2020-21-Upper-Deck-Ice-Hockey-Cards-Base-Connor-McDavid-new.jpg"
+    },
+    {
+      "id": 4,
+      "title": "07-08 Joe Sakic",
+      "rating": 3,
+      "imageURL" : "https://i0.wp.com/o-wai-sa.com/wp-content/uploads/2020/05/07-sakic-front.jpg?fit=252%2C350&ssl=1"
+    },
+    {
+      "id": 5,
+      "title": "21-22 Jamie Oleksiak",
+      "rating": 4,
+      "imageURL" : "https://i.ebayimg.com/images/g/684AAOSwfBJirNFU/s-l500.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Player Name",
+      "rating": 3,
+      "imageURL" : "https://www.lets-make-greeting-cards.com/images/your-card-here.png"
+    }
+  
+  ]

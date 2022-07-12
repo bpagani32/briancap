@@ -72,6 +72,7 @@ h1{
     background-color: darkblue;
     width: vw;
     text-align: center;
+    max-width: 40;
 }
 h3{
     background-color: black;
@@ -85,21 +86,28 @@ h2{
     
 }
 #artTitle{
-    background-color: maroon;
+    background-color: navy;
     color:white;
- 
-    margin-top: 10px;
+   
     
+    
+    font-size:26px;
+    height: 70px;;
+    text-align: baseline;
 }
 #artTitle2{
-    background-color: maroon;
+    background-color: navy;
     color:white;
+    font-size:26px;
+    text-align: center;
+    height: 35px;
    
   
 }
 #artTitle3{
-    background-color: maroon;
+    background-color: navy;
     color:white;
+    margin-top: 6px;
   
     
     
@@ -109,7 +117,7 @@ h2{
 }
 .mainblocks{
     background-color: #EFF2F1;
-    border:4px solid black;
+    border:3px solid black;
     min-height: 250px; 
     flex: 1 0 50%;
     
@@ -137,7 +145,10 @@ footer{
     }
     
 }
-
+.active{
+    width: 440px;;
+    height: 290px;;
+}
 
 .static {
     
@@ -145,8 +156,9 @@ footer{
      background: white;
      width: 32vw;
      height:32vh;
-     width: 500px;
-     height:280px;
+     width: 440px;
+     height:290px;
+
     
      
      
@@ -162,18 +174,92 @@ footer{
      position: absolute;
      width: 50vw;
      height:50vh;
-     width: 500px;
-     height:280px;
+     width: 440px;
+     height:290px;
       
  
    }
+   .static2{
+   
+    position:absolute;
+     background: white;
+     width:525px;
+     height: 210px;
+   
+     
+     object-fit: cover;
+ 
+   }
+
+   .static2:hover{
+
+        opacity:0;
+        width: 50vw;
+        height: 50vh;
+        cursor: pointer;
+        position: absolute;
+        width: 50vw;
+        height:50vh;
+        width: 500px;
+        height:280px;
+
+   }
+   .static3{
+   
+    position:absolute;
+     background: white;
+     width:410px;
+     height: 210px;
+   
+     
+     object-fit: cover;
+ 
+   }
+
+   #firstOne{
+    max-width: 66%;;
+
+   }
+   #secondOne{
+    max-width: 20%;
+    border: none;
+    background-color: gray;
+   }
+   
+   
 #thirdOne{
-    background-color: green;
+    background-color: black;
+    max-width: 37%;
 }
 
 #fourthOne{
     background-color: purple;
+    max-width: 29%;
+
 }
 #lastOne{
-    background-color: yellow;
+    background-color: lightblue;
+    max-width: 35%;
 }
+
+.helpLinks a{
+
+    color: blue;
+    text-align: right;
+    text-decoration: none;
+    font-size: 38px;
+
+}
+.helpLinks a:hover {
+    background-color: #ddd;
+    color: black;
+   
+  }
+  
+.helpLinks a.active {
+    background-color:black;
+    color: #f2f2f2;
+  }
+  .footer1{
+    max-width: 31%;
+  }
