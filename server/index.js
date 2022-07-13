@@ -19,12 +19,12 @@ app.put('/api/movies/:id', updateMovie)
 app.get('/',(req,res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
 })
-app.get('/',(req,res) => {
-    res.sendFile(path.join(__dirname, '../styles.css'))
-})
-app.get('/',(req,res) => {
-    res.sendFile(path.join(__dirname, 'index.js'))
-})
+// app.get('/',(req,res) => {
+//     res.sendFile(path.join(__dirname, '../styles.css'))
+// })
+// app.get('/',(req,res) => {
+//     res.sendFile(path.join(__dirname, 'index.js'))
+// })
 
 
 //getting from the main.js
