@@ -4,6 +4,7 @@ const path =require('path');
 
 const app = express();
 
+const port =process.env.PORT || 4004
 app.use(express.json());
 app.use(cors());
 
@@ -16,10 +17,10 @@ app.post('/api/movies', createMovie)
 app.put('/api/movies/:id', updateMovie)
 
 app.get('/',(req,res) => {
-    res.sendFile(path.join(__dirname, 'index.html'))
+    res.sendFile(path.join(__dirname, '../index.html'))
 })
 app.get('/',(req,res) => {
-    res.sendFile(path.join(__dirname, 'styles.css'))
+    res.sendFile(path.join(__dirname, '../styles.css'))
 })
 app.get('/',(req,res) => {
     res.sendFile(path.join(__dirname, 'index.js'))
@@ -29,4 +30,7 @@ app.get('/',(req,res) => {
 //getting from the main.js
 //end points-----------
 
-app.listen(4004, console.log('Slacking on port 4004'))
+app.listen(port, () => {
+ console.log(`Slacking on port ${port}`) 
+})
+    
