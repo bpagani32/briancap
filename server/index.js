@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path =express()
 
 const app = express();
 
@@ -14,7 +15,15 @@ app.delete('/api/movies/:id', deleteMovie)
 app.post('/api/movies', createMovie)
 app.put('/api/movies/:id', updateMovie)
 
-
+app.get('/',(req,res) => {
+    res.sendFile(path.join(__dirname, 'index.html'))
+})
+app.get('/',(req,res) => {
+    res.sendFile(path.join(__dirname, 'styles.css'))
+})
+app.get('/',(req,res) => {
+    res.sendFile(path.join(__dirname, 'main.js'))
+})
 
 
 //getting from the main.js
