@@ -1,7 +1,7 @@
 const moviesContainer = document.querySelector('#movies-container')
 const form = document.querySelector('form')
 
-const baseURL = `https://briancap.herokuapp.com`
+const baseURL = `http://localhost:4004/api/movies`
 
 const moviesCallback = ({ data: movies }) => displayMovies(movies)
 const errCallback = err => console.log(err.response.data)
@@ -15,19 +15,19 @@ function submitHandler(e) {
     e.preventDefault()
 
     let title = document.querySelector('#title')
-    let rating = document.querySelector('input[name="ratings"]:checked')
+    
     let imageURL = document.querySelector('#img')
 
     let bodyObj = {
         title: title.value,
-        rating: rating.value, 
+       
         imageURL: imageURL.value
     }
 
     createMovie(bodyObj)
 
     title.value = ''
-    rating.checked = false
+   
     imageURL.value = ''
 }
 
@@ -37,11 +37,7 @@ function createMovieCard(movie) {
 
     movieCard.innerHTML = `<img alt='movie cover' src=${movie.imageURL} class="movie-cover"/>
     <p class="movie-title">${movie.title}</p>
-    <div class="btns-container">
-        <button onclick="updateMovie(${movie.id}, 'minus')">-</button>
-        <p class="movie-rating">${movie.rating} stars</p>
-        <button onclick="updateMovie(${movie.id}, 'plus')">+</button>
-    </div>
+   
     <button onclick="deleteMovie(${movie.id})">delete</button>
     `
 

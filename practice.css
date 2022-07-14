@@ -1,6 +1,7 @@
 *{
     margin:0; padding:0; border:0;
     box-sizing: border-box;
+   
 }
 
   
@@ -17,7 +18,7 @@
   .topnav a:hover {
     background-color: #ddd;
     color: black;
-    border-radius: 90%;
+    border-radius: 80%;
   }
   
   /* Add a color to the active/current link */
@@ -46,6 +47,8 @@
 body {
     min-height: 100vh;
     background-color: white;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container{
     
@@ -88,31 +91,34 @@ h2{
 #artTitle{
     background-color: navy;
     color:white;
+    margin-top:5px;
    
     
     
-    font-size:26px;
+    font-size:20px;
     height: 70px;;
     text-align: baseline;
 }
 #artTitle2{
     background-color: navy;
     color:white;
-    font-size:26px;
+    font-size:22px;
     text-align: center;
     height: 35px;
    
   
 }
 #artTitle3{
+    margin-top: 75px;;
     background-color: navy;
     color:white;
-    margin-top: 6px;
+
+   
   
     
     
     font-size:26px;
-    height: 70px;;
+    height: 101px;;
     text-align: baseline;
 }
 .mainblocks{
@@ -124,7 +130,7 @@ h2{
 
 }
 footer{
-    background-color: grey;
+    background-color: lightblue;
     border: 4px solid black;
     min-height: 250px;
     flex: 1 0 auto;
@@ -146,8 +152,10 @@ footer{
     
 }
 .active{
-    width: 440px;;
-    height: 290px;;
+    width: 491px;;
+    height: 333px;;
+    padding:0;
+    margin:0;
 }
 
 .static {
@@ -156,8 +164,8 @@ footer{
      background: white;
      width: 32vw;
      height:32vh;
-     width: 440px;
-     height:290px;
+     width: 492px;
+     height:335px;
 
     
      
@@ -183,7 +191,7 @@ footer{
    
     position:absolute;
      background: white;
-     width:525px;
+     width:558px;
      height: 210px;
    
      
@@ -208,7 +216,7 @@ footer{
    
     position:absolute;
      background: white;
-     width:410px;
+     width:495px;
      height: 210px;
    
      
@@ -217,7 +225,8 @@ footer{
    }
 
    #firstOne{
-    max-width: 66%;;
+    max-width: 66%;
+    font-size:25p
 
    }
    #secondOne{
@@ -228,23 +237,24 @@ footer{
    
    
 #thirdOne{
-    background-color: black;
-    max-width: 37%;
+    background-color: navy;
+    max-width: 35%;
 }
 
 #fourthOne{
-    background-color: purple;
-    max-width: 29%;
+    background-color: navy;
+    max-width: 31%;
 
 }
 #lastOne{
     background-color: lightblue;
     max-width: 35%;
+  
 }
 
 .helpLinks a{
 
-    color: blue;
+    color: navy;
     text-align: right;
     text-decoration: none;
     font-size: 38px;
@@ -262,4 +272,5 @@ footer{
   }
   .footer1{
     max-width: 31%;
+    background-color: navy;
   }
